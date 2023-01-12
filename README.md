@@ -17,3 +17,8 @@
     http://youtu.be/0zM4nApSvMg
     */
     ```
+    
+    ```
+            YTLinkToYTId ytLinkToYTId = new YTLinkToYTId();
+        Log.d("Demo","ytid:"+ytLinkToYTId.extractYouTubeID("http://www.youtube.com/embed/0zM4nApSvMg?rel=0"));
+	```
